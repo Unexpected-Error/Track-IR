@@ -1,28 +1,25 @@
 # Track-IR
-DIY head tracking for flight and space sims
-
-Contains files and images of my own track IR clip design as none of the current ones met my needs
+DIY head tracking for flight and space sims.
 
 Track IR is a method of tracking your head when playing space/plane/car sims to further immerse yourself by allowing you to look around virtually by moving your head.
-It works by computing your location from 3 IR LEDs.
+It works by computing your location from 3 IR LEDs. I decieded to build my own tracker as none of the current ones met my needs.
 
 ## Tools
-* 3d printer
-* solder
+* 3D printer
+* Solder
 
 ## Cost
 * $13.22 + cost of PS3 eye
 
 ## BOM
-* [electronics](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ab94725237) - $4.68
-* plastic - $1.44
-* wire - 10¢
-* [filter](https://www.peauproductions.com/products/infrared-light-high-pass-filter) - $2
-* new lens (no longer sold, one without a IR cut filter will work) - $5
+* [Electronics](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ab94725237) - $4.68
+* Plastic - $1.44
+* Wire - 10¢
+* [Filter](https://www.peauproductions.com/products/infrared-light-high-pass-filter) - $2
+* New lens (no longer sold, one without a IR cut filter will work) - $5
 * PS3 eye (can get for cheap on ebay) [amazon](https://www.amazon.com/PlayStation-Eye-3/dp/B000VTQ3LU)
 
 Rather than pay $170 (!) to have a few LEDs, plastic, and an IR camera shipped to my door, I started this project to see if I could accomplish it for cheaper. To do so you need a camera that can see IR, LEDs that emit IR (preferably in the spectrum your camera is most sensitive), software to compute your location based on the size and position of the 3 IR dots, and a plastic frame to hold the IR LEDs in place on you head.
-
 
 
 ## V1 - Proof of Concept
@@ -32,16 +29,16 @@ For the LEDs, I ordered them off of mouser (an online electronics retailer) [BOM
 For the plastic frame, I went with [this](https://www.thingiverse.com/thing:49142), a popular design for track IR, which I then 3d printed. 
 
 ### Circuit
-<img src="/images/Circuit2.PNG" width="100"> <img src="/images/Circuit1.PNG" width="100">
+<img src="/images/Circuit2.PNG" width="200">
 
 ### Camera
-<img src="/images/Camera.jpeg" width="100">
+<img src="/images/Camera.jpeg" width="200">
 
 ### Demo + images
 https://youtu.be/YlXVRmGuQ3A
 
 
-<img src="/images/Mounted.jpeg" width="100"> <img src="/images/Working.jpeg" width="100">
+<img src="/images/Mounted.jpeg" width="200"> <img src="/images/Working.jpeg" width="200">
 
 ### Results
 The system did work, and so was a success, however:
@@ -55,7 +52,7 @@ Sticking with the same software and camera, and with a new shipment of the LEDs,
 
 ### Frame
 
-<img src="/images/V1_1Frame1.jpeg" width="100"> <img src="/images/V1_1Frame2.jpeg" width="100">
+<img src="/images/V1_1Frame1.jpeg" width="200"> <img src="/images/V1_1Frame2.jpeg" width="200">
 
 ### Results
 This resulted in me being able to turn further before the camera lost line of sight to the LEDs, allowing me to turn down sensitivity for comfort
@@ -64,11 +61,11 @@ This resulted in me being able to turn further before the camera lost line of si
 I bought my own camera lense assembly and visible light filter ( [filter](https://www.peauproductions.com/products/infrared-light-high-pass-filter) ) and designed my own frame. I did this because V1.1 mounts on headphones, and I don't want to always have to wear headphones to play. This new version mounts on glasses, allowing me to use it more often. The new camera with a new lense assembly and light filter is to get a cleaner image of the LEDs for better tracking.
 
 ### Camera
-<img src="/images/CameraUpdate1.jpeg" width="100"> <img src="/images/CameraUpdate2.jpeg" width="100">
+<img src="/images/CameraUpdate1.jpeg" width="200"> <img src="/images/CameraUpdate2.jpeg" width="200">
 
 ### Frame
 
-<img src="/images/V2Frame.jpeg" width="100">
+<img src="/images/V2Frame.jpeg" width="200">
 
 ### Demo
 https://youtu.be/IIj-g7B0hHw 
