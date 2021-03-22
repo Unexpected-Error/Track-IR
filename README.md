@@ -29,7 +29,7 @@ Rather than pay $170 (!) to have a few LEDs, plastic, and an IR camera shipped t
 For the software, there is an open source project by the name of [open track](https://github.com/opentrack/opentrack)
 For the camera, I took my webcam and taped on a visible light filter. Not having a proper filter, I used a floppy disk as it works well enough.
 For the LEDs, I ordered them off of mouser (an online electronics retailer) [BOM](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ab94725237)
-For the plastic frame, I went with ... a popular design for track IR, which I then 3d printed. 
+For the plastic frame, I went with [this](https://www.thingiverse.com/thing:49142), a popular design for track IR, which I then 3d printed. 
 
 ### Circuit
 <img src="/images/Circuit2.PNG" width="100"> <img src="/images/Circuit1.PNG" width="100">
@@ -37,8 +37,9 @@ For the plastic frame, I went with ... a popular design for track IR, which I th
 ### Camera
 <img src="/images/Camera.jpeg" width="100">
 
-## Demo + images
+### Demo + images
 https://youtu.be/YlXVRmGuQ3A
+
 
 <img src="/images/Mounted.jpeg" width="100"> <img src="/images/Working.jpeg" width="100">
 
@@ -52,14 +53,28 @@ The floppy disk blocked out too much IR light, resulting in needing to replace b
 ## V1.1 - Improvements
 Sticking with the same software and camera, and with a new shipment of the LEDs, I replaced the plastic frame with another popular design. It mounts the LEDs to the side and away from my head ([thingverse](https://www.thingiverse.com/thing:2458689)) as to not be obstructed by my head. 
 
+### Frame
+
+<img src="/images/V1_1Frame1.jpeg" width="100"> <img src="/images/V1_1Frame2.jpeg" width="100">
+
 ### Results
 This resulted in me being able to turn further before the camera lost line of sight to the LEDs, allowing me to turn down sensitivity for comfort
 
 ## V2 - Current 
-I bought my own camera lense assembly and visible light filter ( [filter](https://www.peauproductions.com/products/infrared-light-high-pass-filter) ) and designed my own frame. I did this because the old one mounts on headphones, and I don't always want to have to wear headphones to play. This new version mounts on glasses, allowing me to use it more often.
+I bought my own camera lense assembly and visible light filter ( [filter](https://www.peauproductions.com/products/infrared-light-high-pass-filter) ) and designed my own frame. I did this because V1.1 mounts on headphones, and I don't want to always have to wear headphones to play. This new version mounts on glasses, allowing me to use it more often. The new camera with a new lense assembly and light filter is to get a cleaner image of the LEDs for better tracking.
+
+### Camera
+<img src="/images/CameraUpdate1.jpeg" width="100"> <img src="/images/CameraUpdate2.jpeg" width="100">
+
+### Frame
+
+<img src="/images/V2Frame.jpeg" width="100">
+
+### Demo
+https://youtu.be/IIj-g7B0hHw 
 
 ### Results
-While a lot of work went into the design, and it does work, the whole assembly is too heavy to be comfortable on glasses. Currently, I use V1.1 the most
+While a lot of work went into the design, and it does work, the whole assembly is too heavy to be comfortable on glasses. Currently, I use V1.1's frame and LEDs, with V2's camera.
 
 
 
